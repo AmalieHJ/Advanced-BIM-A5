@@ -12,7 +12,10 @@ Thus the project goal was to create a tool that could retrieve necessary informa
 
 The different project processes are described below:
 - Scoping the project (goal, requirements, limitations). 
-- Understanding the .json format and the .json files’ naming and layout required for LCAbyg, See figure X. This includes understanding the unique ID’s, the IDs connecting Nodes and Edges in the building model and the IDs referring to .csv files in LCA’s incorporated ‘gen_dk’ library.   
+- Understanding the .json format and the .json files’ naming and layout required for LCAbyg, ![See figure](NodesEdges). This includes understanding the unique ID’s, the IDs connecting Nodes and Edges in the building model and the IDs referring to .csv files in LCA’s incorporated ‘gen_dk’ library.   
+![current use case](diagram_before)
+<img src=" NodesEdges.svg">
+
 - Identify which data is needed from the .ifc file and which can be referenced by ‘gen_dk’ library. 
 - Reducing the scope to only encompass one IfcBuildingElement as an example, namely IfcBeams.   
 - Coding in python:
@@ -30,3 +33,8 @@ Another consideration regarded how to retrieve the EPDs associated to the materi
 
 
 
+
+
+
+
+**Link to Github:** https://github.com/AmalieHJ/Advanced-BIM-A5
