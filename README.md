@@ -12,7 +12,7 @@ Thus the project goal was to create a tool that could retrieve necessary informa
 
 The different project processes are described below:
 - Scoping the project (goal, requirements, limitations). 
-- Understanding the .json format and the .json files’ naming and layout required for LCAbyg, ![See figure](NodesEdges). This includes understanding the unique ID’s, the IDs connecting Nodes and Edges in the building model and the IDs referring to .csv files in LCA’s incorporated ‘gen_dk’ library.   
+- Understanding the .json format and the .json files’ naming and layout required for LCAbyg, ![See figure](img/NodesEdges). This includes understanding the unique ID’s, the IDs connecting Nodes and Edges in the building model and the IDs referring to .csv files in LCA’s incorporated ‘gen_dk’ library.   
 
 <img src="img/NodesEdges.png">
 
