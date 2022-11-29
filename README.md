@@ -22,8 +22,11 @@ The different project processes are described below:
   - In templates; reference to matrix for variable model data, generate unique ID’s and cross reference ID’s between .json files/.csv files.   
   - Automatic naming and generation of results as an ‘output’ folder with the final filled out .json files. 
 
+Several options for the tool were considered at the beginning of the project. Both HTML, Speckle, web IFCjs were considered for the project platform however we chose to work exclusively in python. 
+Another consideration regarded how to retrieve the EPDs associated to the materials in the BIM model. We investigated the possibility of doing web scraping from the Ökobaudat database, but we ended up using the generic database ‘gen_dk’ incorporated in LCAbyg as a simplified solution.
 
-** The output of the tool **
+**The output of the tool**
+
 
 
 
