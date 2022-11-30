@@ -42,7 +42,43 @@ The workflow in which the tool is implemented is displayed in Figure 2.
 |:--:| 
 | *Figure 2, Schema of the tool workflow processes including input and output files.* |
 
+**1. Process of developing the tool**
+**Did the process of the course enable you to answer or define questions that you might need later for thesis?**
 
+Yes. Our tool has great potential for a thesis project. Especially because we have not been able to incorporate all materials yet due to the time constraints. This can be done having more time, like in a master thesis where it can also be combined with more detailed IFC files and connected to collaboration with a company resulting in great business value. 
 
+**Would you have preferred to have been given less choice in the use cases?**
+
+No, we found it very inspiring to have every option open. It was a great guidance to chose within the main fields of interests where we chose LCA. 
+The importance of scoping the project became very clear once the different parts of one's project were idetified. For a very broad use case, it’s necessary to have more time to focus on scripting.
+
+**Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?**
+
+We think the number of tools have been a little too extensive. It was nice to expand our knowledge on different OpenBIM platforms, however a 5 ECTS point course is not big enough to acheive understanding of how to use all the tools. 
+If this course becomes either a 10 ECTS points or a 3 weeks course it will be easier to learn more and work more focused.
+
+**2. Output of the tool**
+**Did the tool address the use case you identified?**
+Yes, however due to the project’s time constraint the scope was reduced to encompass only beams.
+In the python script, after retrieving data from the IFC file, we introduced a matrix to hold the data. 
+This method are beneficial as the data could easily be extracted and put into the right places in the .json files. Furthermore, the matrix could easily be expanded to encompass more IFC elements and associated quantities for future development of the tool. Eventually, as the matrix itself holds neccessary IFC information required to make an LCA analysis, the matrix could most likely be used to integrate BIM with other software than LCAbyg.  
+
+**Was the use case well modelled?**
+Yes, see section above. 
+
+**Was the project clearly scoped?**
+Regarding our project, we spent quite some time defining the scope which helped us maintain the same overall scope through the hole project. However due to the time constraints we were obliged to narrow the scope in terms of the extraction of materials and quantities. We made the whole template for all json files to LCAbyg, so for now on, for future work it should be straightforward to load in the remaining materials from the IFC file.
+
+**3. Future**
+**Are you likely to use OpenBIM tools in your thesis?**
+We have not yet decided on a thesis subject. However we see great opportunities in the OpenBIM tools presented in class and not least in our own developed tool!
+Some ideas for further development of our tool are presented below:
+- control of the ifc file: is the necessary information provided? 
+- include all IfcBuildingElements
+- Live LCA results.
+
+**Are you likely to use OpenBIM tools in your professsional life in the next 10 years?**
+
+Yes, considering the increased use of OpenBIM tools in the building industry we think it is very likely to work with these in our furture careers. 
 
 **Link to Github:** https://github.com/AmalieHJ/Advanced-BIM-A5
