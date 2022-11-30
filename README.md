@@ -81,9 +81,10 @@ Regarding our project, we spent quite some time defining the scope which helped 
 We have not yet decided on a thesis subject. However we see great opportunities in the OpenBIM tools presented in class and not least in our own developed tool!
 
 Some ideas for further development of our tool are presented below:
-- control of the ifc file: is the necessary information provided? 
-- include all IfcBuildingElements
-- Live LCA results.
+- _Pre-control of the .ifc file_: is the right and necessary information provided in the file? How is the quality of the information provided? 
+- _Full LCA analysis_: Include all IfcBuildingElements and building project specific information required in LCAbyg
+- _Live LCA results_: see the LCA results immediately during modeling on a live platform. 
+- _Log LCA results_: log the results for each LCA analysis made, to follow the development/progress of reduction in the CO2 emissions during the design stage. Determine how much better one choice is than another. 
 
 **Are you likely to use OpenBIM tools in your professsional life in the next 10 years?**
 
