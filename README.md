@@ -16,7 +16,7 @@ The different project processes are described below:
 
 | ![img/NodesEdges.png](img/NodesEdges.png) | 
 |:--:| 
-| *Figure 1* |
+| *Figure 1, Edges required for the building model (source: Terese Pagh et al., _Json guide for LCAbyg version 5.2.1.0_ , page 28, BUILD, 2020 ).* |
 
 - Identify which data is needed from the .ifc file and which can be referenced by ‘gen_dk’ library. 
 - Reducing the scope to only encompass one IfcBuildingElement as an example, namely IfcBeams.   
@@ -32,9 +32,15 @@ Another consideration regarded how to retrieve the EPDs associated to the materi
 
 **The output of the tool**
 
+The direct tool output is a folder containing 7 .json files which can be loaded into LCAbyg.
 
+When applied, the tool has many potential benefits. 
+The potential users which include both LCA consultants, engineers, and architects are able to assess LCA results much faster with the automated process of retrieving data in the .ifc file. This encourages users to make extra LCAs in progress of a building project and provides better guidance of the design towards more sustainable choices which is especially valuable  in the early design stages enabling time and economic savings.
+The workflow in which the tool is implemented is displayed in Figure 2.
 
-
+| ![img/NodesEdges.png](img/ToolWorkflowProcesses.png) | 
+|:--:| 
+| *Figure 2, Schema of the tool workflow processes including input and output files.* |
 
 
 
